@@ -14,7 +14,7 @@ export async function POST(req: NextRequest) {
       body: JSON.stringify({
         data: {
           ...body,
-          workspace: '<your-workspace-gid>',   // required unless you pass `projects`
+          workspace: '1210484205723058',   // required unless you pass `projects`
         }
       })
     }
